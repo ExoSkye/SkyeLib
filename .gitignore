@@ -1,0 +1,9 @@
+*.elf
+*.self
+*.pkg
+*.bin
+**/.idea/
+*.o
+*.d
+*.map
+**/build/
