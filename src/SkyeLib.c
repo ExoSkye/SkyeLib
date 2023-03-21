@@ -1,7 +1,10 @@
 #include <SkyeLib.h>
 #include <stdio.h>
+#include <sys/process.h>
 #include <sysutil/msg.h>
 #include <sysutil/sysutil.h>
+
+SYS_PROCESS_PARAM(1001, 0x100000);
 
 extern SkyeLibConfig SKYE_LIB_CONFIG;
 
